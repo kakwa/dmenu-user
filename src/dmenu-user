@@ -1,0 +1,9 @@
+#!/bin/sh
+CONFIG_FILE=".config/dmenu-user"
+
+mkdir -p `dirname $HOME/$CONFIG_FILE`
+if ! [ -f $HOME/$CONFIG_FILE ]
+    then echo "please add some programs in $HOME/$CONFIG_FILE (one per line) and delete this line" > $HOME/$CONFIG_FILE
+fi
+
+exe=`cat $HOME/$CONFIG_FILE | dmenu ${1+"$@"}` && exec $exe

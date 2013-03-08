@@ -13,6 +13,11 @@ Description
 
 dmenu-user is small configurable launcher menu based on dmenu from suckless.
 
+Dependancies
+============
+
+* [dmenu](http://tools.suckless.org/dmenu/) (no shit!)
+
 Installation
 ============
 

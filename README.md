@@ -11,7 +11,8 @@ dmenu-user is released under the MIT public license.
 Description
 ===========
 
-dmenu-user is small configurable launcher menu based on dmenu from suckless.
+dmenu-user is small configurable launcher menu based on dmenu from suckless. It's a simple shell script 
+inspired by the dmenu_run script that comes with dmenu.
 
 Dependancies
 ============
@@ -38,7 +39,8 @@ Just run dmenu-user and follow the instructions.
 Long version
 ------------
 
-Create a dmenu-user configuration file in the configuration directory (default: ~/.config/dmenu-user) and add one program by line (program must be in $PATH):
+Create a dmenu-user configuration file in the configuration directory (default: ~/.config/dmenu-user) 
+and add one program by line (program must be in $PATH):
 
 ```
 pcmanfm
@@ -47,3 +49,7 @@ chromium
 surf
 VirtualBox
 ```
+Tips:
+-----
+
+Use it with a keyboard shortcut (I like "alt + m" personnaly, easy to remember and quite accessible). 

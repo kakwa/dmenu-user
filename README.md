@@ -53,3 +53,7 @@ Tips:
 -----
 
 Use it with a keyboard shortcut (I like "alt + m" personnaly, easy to remember and quite accessible). 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/kakwa/dmenu-user/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
